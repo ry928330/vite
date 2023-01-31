@@ -2,7 +2,7 @@
  * @Author: ryyyyy
  * @Date: 2023-01-30 16:58:35
  * @LastEditors: ryyyyy
- * @LastEditTime: 2023-01-31 15:13:49
+ * @LastEditTime: 2023-01-31 16:31:11
  * @FilePath: /first-vite/vite.config.js
  * @Description: 
  * 
@@ -12,7 +12,7 @@ import react from '@vitejs/plugin-react'
 import legacy from '@vitejs/plugin-legacy';
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/dist/',
+  // base: '/dist/',
   plugins: [
     react(),
     // legacy({
